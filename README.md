@@ -1,8 +1,7 @@
-# Getting Started with Create React App
-
+# Repositorio : Ruins Design - Diseñado en React.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Available Scripts - Para ejecutar el proyecto: 
 
 In the project directory, you can run:
 
