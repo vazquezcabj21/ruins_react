@@ -1,6 +1,7 @@
 import React from "react";
-import {Stack, Text} from '@chakra-ui/react';
-import './Header.css'
+import { Stack, Text } from "@chakra-ui/react";
+import {Link} from 'react-router-dom'
+import "./Header.css";
 const Header = () => {
   let backgroundColor = "#3F51B5";
   let blanco = "#fff";
@@ -12,7 +13,16 @@ const Header = () => {
         alignItems={"center"}
         backgroundColor={backgroundColor}
       >
-        <Text color={blanco} fontSize={20} letterSpacing={1.2} className="logo">Ruins</Text>
+        <Link to="/">
+          <Text
+            color={blanco}
+            fontSize={20}
+            letterSpacing={1.2}
+            className="logo"
+          >
+            Ruins
+          </Text>
+        </Link>
       </Stack>
     </header>
   );
