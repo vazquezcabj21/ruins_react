@@ -19,7 +19,13 @@ const Planes = () => {
           redes acerca de esto.
         </Text>
       </Stack>
-      <Stack p={4} spacing={4} direction = {["column", "column","row"]} alignItems={"center"} justifyContent={"center"}>
+      <Stack
+        p={4}
+        spacing={4}
+        direction={["column", "column", "row"]}
+        alignItems={"center"}
+        justifyContent={"center"}
+      >
         <PlanCard
           border={"1px solid black"}
           titulo={"Plan Básico"}
@@ -27,7 +33,8 @@ const Planes = () => {
           contenido={
             "Nuestro plan básico incluye una landing page simple, de una sola página, adaptable a todas las plataformas. Sin mantenimiento"
           }
-          colorButton = {"blackAlpha"}
+          colorButton={"blackAlpha"}
+          link={"https://mpago.la/2EBu8q7"}
         ></PlanCard>
         <PlanCard
           border={"1px solid green"}
@@ -36,7 +43,8 @@ const Planes = () => {
           contenido={
             "Nuestro plan intermedio incluye una landing page de hasta 3 páginas, adaptable a todas las plataformas y con mantenimiento bimestral. "
           }
-          colorButton = {"green"}
+          colorButton={"green"}
+          link={"https://mpago.la/2Dz1GXG"}
         ></PlanCard>
         <PlanCard
           border={"1px solid gold"}
@@ -45,10 +53,11 @@ const Planes = () => {
           contenido={
             "Nuestro mejor plan incluye una página con las páginas que necesites, adaptable a todas las plataformas y mantenimiento cuando lo necesites."
           }
-          colorButton = {"yellow"}
+          colorButton={"yellow"}
+          link={"https://mpago.la/1Zztpko"}
         ></PlanCard>
       </Stack>
-      <Footer/>
+      <Footer />
     </Stack>
   );
 };
