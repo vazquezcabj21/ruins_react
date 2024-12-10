@@ -11,7 +11,7 @@ const Frase = () => {
         borderRadius={"50%"}
         width={75}
       ></Image>
-      <Text fontSize={[22, 30]}>
+      <Text fontSize={[18, 24]}>
         La mayoría de las personas piensan que el diseño es una capa, una simple
         decoración. Para mí, nada es más importante en el futuro que el diseño.
         El diseño es el alma de todo lo creado por el hombre

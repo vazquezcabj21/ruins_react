@@ -1,5 +1,4 @@
 import React from "react";
-import { Stack, Text } from "@chakra-ui/react";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Subhero from "../components/Subhero";

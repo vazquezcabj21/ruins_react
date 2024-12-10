@@ -1,6 +1,5 @@
 import React from 'react'
 import { Stack,Text } from '@chakra-ui/react'
-import FlightTakeoffIcon from '@mui/icons-material/FlightTakeoff';
 import { Icon } from '@chakra-ui/react'
 
 const VentajaItem = (props) => {
